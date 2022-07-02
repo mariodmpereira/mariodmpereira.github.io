@@ -1,0 +1,33 @@
+title: Devugger
+email: mariodmpereira@gmail.com
+description: >-
+  This is my personal Developer Handbook to keep track of my learnings.
+# baseurl: ""
+url: "http://mariodmpereira.github.io"
+twitter_username: jekyllrb
+github_username:  jekyll
+
+# Build settings
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+plugins:
+  - jekyll-feed
+
+aux_links:
+  "Home":
+    - "//mariodmpereira.github.io/"
+  "Blog":
+    - "//mariodmpereira.github.io/blog"
+  "GitHub":
+    - "//github.com/mariodmpereira"
+  "Linkedin":
+    - "//linkedin.com/in/mariodmpereira/"
+
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y at %I:%M %p"
+
+gh_edit_link: true
+gh_edit_link_text: "See on GitHub."
+gh_edit_repository: "https://github.com/mariodmpereira/mariodmpereira.github.io"
+gh_edit_branch: "gh-pages"
+gh_edit_view_mode: "tree"
