@@ -9,7 +9,7 @@ As a former [Motion Graphics Designer]({{site.data.author.vimeo}}), I used [Adob
 
 As **Adobe** described on their website:
 
-> The **After Effects** expression language is based on **JavaScript**, with an extended set of built-in objects. **After Effects** uses the core standard **JavaScript** language, not the web browser–specific extensions.
+> *The **After Effects** expression language is based on **JavaScript**, with an extended set of built-in objects. **After Effects** uses the core standard **JavaScript** language, not the web browser–specific extensions.*
 
 Has I started learning both **Javascript** and **Expression Language**, I found myself obsessing over [Javascript][mdn-javascript]. I noticed that I was investing more time in studying it than actually studying anything related to my previous role at the time.
 
