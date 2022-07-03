@@ -36,6 +36,10 @@ Try adding any text to that `README.md` file and committing the changes. As soon
 
 But that's pretty boring, right? It's just a single markdown file being rendered to the browser. 
 
+Fear not! You can upload any static website, using plain {{ site.data.bolded.html }}, {{ site.data.bolded.css }} and {{ site.data.bolded.javascript }}, or using any framework like {{ site.data.links.bootstrap }}, {{ site.data.links.bulma }}, {{ site.data.links.tailwind }}, among others.
+
+I'm gonna suggest another alternative below.
+
 [Meet {{ site.data.bolded.jekyll }}]({{ site.data.devugger.links.jekyll_url }}){: .btn .btn-purple }
 
 {% include references.markdown %}

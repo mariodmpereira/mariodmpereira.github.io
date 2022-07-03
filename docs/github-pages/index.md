@@ -7,4 +7,4 @@ has_children: true
 
 # {{ page.title }}
 
-{{ site.data.bolded.github_pages }} is a service provided by {{ site.data.bolded.github }}, to allow anyone with an account to serve a static website that is hosted directly on a {{ site.data.bolded.github }} repository.
+{{ site.data.bolded.github_pages }} is a service provided by {{ site.data.bolded.github }}, that allows anyone with an account to host and serve a static website directly on a {{ site.data.bolded.github }} repository.

@@ -12,7 +12,7 @@ I have to confess that I struggled for a few days before deciding what to use to
 
 I've tested a few options, such as {{ site.data.links.jekyll }}, [docsify](https://docsify.js.org/), [Read the Docs](https://readthedocs.org/), [Docusaurus](https://docusaurus.io/), [GitBook](https://www.gitbook.com/) and [Docz](https://www.docz.site/). I also considered using either [Bootstrap](https://getbootstrap.com/) or [Bulma](https://bulma.io/), but I wanted something that served [Markdown](https://www.markdownguide.org/) out of the box.
 
-After a lot of trial an error, I opted for {{ site.data.links.jekyll }} with the {{ site.data.links.just_the_docs }}.
+After a lot of trial an error, I opted for {{ site.data.links.jekyll }} with the {{ site.data.links.just_the_docs }} theme.
 
 It was a rough start because it was my first time using {{ site.data.bolded.jekyll }}, and I'm still getting used to it until today, but I'm starting to get the hang of it.
 

@@ -2,9 +2,8 @@
 nav_order: 3
 layout: page
 title: Customising Just the Docs
-permalink: /github-pages/jekyll/customising-just-the-docs/
+permalink: /jekyll/customising-just-the-docs/
 parent: Jekyll
-grand_parent: GitHub Pages
 ---
 
 # {{ page.parent }} - {{ page.title }}
@@ -24,7 +23,7 @@ Reboot your application and reload the page, you're welcome.
 
 ## Website Metadata
 
-You can change all of the metadata about your website, I removed all of the comments because I link to keep things clean, my `_config.yml` file is as follows.
+You can change all of the metadata about your website, I removed all of the comments because I like to keep things clean, my `_config.yml` file is as follows.
 > ### **_config.yml**
 ```yml
 color_scheme: dark
@@ -40,11 +39,11 @@ plugins:
   - jekyll-feed
 ```
 
-Please be advised that if you don't use a `baseurl` you should remote or comment that line. Trust me, it already caused me a lot of headaches trying to figure out why the website was misbehaving.
+Please be advised that if you don't use a `baseurl` you should **remote** or **comment that line**. Trust me, it already caused me a lot of headaches trying to figure out why the website was misbehaving.
 
-You can now select anywhere on your markdown files one of these yaml keys using the {{ site.data.bolded.liquid }}, that comes with {{ site.data.bolded.jekyll }} out of the box.
+Not only you just setup some metadata for your website (like the page title), but you can now select anywhere on your markdown files one of these yaml keys using the {{ site.data.bolded.liquid }}, that comes with {{ site.data.bolded.jekyll }} out of the box.
 
-As an example, if you want to render the title of the site that you wrote on `_config.yml`, all you to need to do is this.
+As an example, if you want to render the title of the site you set up on `_config.yml`, all you to need to do is write this on any {{ site.data.bolded.html }} or {{ site.data.bolded.markdown }} file.
 
 ```markdown
 {{ "{{ page.title " }}}}
@@ -59,7 +58,7 @@ Refresh, voilà.
 
 ## Homepage title
 
-At the time of writing this post, this theme contains a small issue.
+At the time of writing this post, this theme contains a "small issue".
 
 If you look at the screenshot above for the **favicon**, you will notice there's a hyphen before the page name. 
 
@@ -102,11 +101,11 @@ nav_exclude: true
 
 ### Add Pages
 
-As just explained in the previous section, you can now duplicate the `index.markdown` and call it `blog.markdown`. Change it's `title` to Blog and remove the ``nav_exclude: true`. This new page should now appear on the side navigation.
+As just explained in the previous section, you can now duplicate the `index.markdown` and call it `blog.markdown`. Change it's `title` to Blog and remove the `nav_exclude: true`. This new page should now appear on the side navigation.
 
 Tipically I store all the new pages under the `/docs` directory to keep the project structure organized, but you can leave them at the root of the project if you want. I'm going to move this `blog.markdown` I created inside `/docs/blog`
 
-> ### **index.markdown**  
+> ### **blog.markdown**  
 ```markdown
 ---
 layout: home
@@ -114,35 +113,30 @@ title: Blog
 ---
 ```
 
+### Permalinks
+
+You can easily add the path to any page by adding `permalink: /url` to any page's {{ site.data.bolded.front_matter }}.
+
+> ### **blog.markdown**  
+```markdown
+---
+layout: home
+title: Blog
+permaling: /blog
+---
+```
+
 ### Navigation Structure
 
 I think that the [Just the Docs - Navigation Structure](https://just-the-docs.github.io/just-the-docs/docs/navigation-structure/) is well explained, with plenty of examples on how to make proper side navigation.
-
-I added a few examples to the examples repository.
 
 ### Auxiliary Links (Top Navigation)
 
 The same goes for this, you can check [Just the Docs - Aux links](https://just-the-docs.github.io/just-the-docs/docs/configuration/#aux-links) to simulate top navigation.
 
-I added a few examples to the examples repository as well.
-
-### Permalinks
-
-You can easily add a permalink to any page by adding `permalink: /url` to any page's {{ site.data.bolded.front_matter }}.
-
 ### Side Navigation Order
 
-To order pages on the side navigation, you need to use `nav_order` on each page's {{ site.data.bolded.front_matter }}.
-
-It accepts numbers and it's from lowest to highest, first to last.
-
-First element example: `nav_order: 1`  
-Second element example: `nav_order: 2`  
-Third element example: `nav_order: 3`
-
-## Conclusion
-
-You should have all the information you need to avoid the same mistakes I did, and to get started with your {{ site.data.bolded.jekyll }} and {{ site.data.bolded.just_the_docs }} static page on {{ site.data.bolded.github_pages }}. 
+To order pages on the side navigation, you need to use `nav_order` on each page's {{ site.data.bolded.front_matter }}. For example, for the first page vertically you would use `nav_order: 1`, for the fourth `nav_order: 4`.
 
 {% include examples_repository.markdown %}
 - {{ site.data.devugger.examples_repository.just_the_docs_customised }}
@@ -151,4 +145,5 @@ You should have all the information you need to avoid the same mistakes I did, a
 
 - {{ site.data.links.favicon }}
 - {{ site.data.links.front_matter }}
+- {{ site.data.links.just_the_docs }}
 - {{ site.data.links.liquid }}
