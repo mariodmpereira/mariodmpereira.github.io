@@ -36,7 +36,7 @@ Try adding any text to that `README.md` file and committing the changes. As soon
 
 But that's pretty boring, right? It's just a single markdown file being rendered to the browser. 
 
-[Meet {{ site.data.bolded.jekyll }}]({{ site.data.devugger.jekyll_url }}){: .btn .btn-purple }
+[Meet {{ site.data.bolded.jekyll }}]({{ site.data.devugger.links.jekyll_url }}){: .btn .btn-purple }
 
 {% include references.markdown %}
 
