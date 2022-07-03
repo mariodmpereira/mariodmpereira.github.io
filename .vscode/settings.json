@@ -1,0 +1,26 @@
+{
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "_site": true,
+        "Gemfile.lock": true,
+        ".vscode": true,
+        ".idea": true,
+        ".jekyll-cache": true,
+        "LICENSE": true,
+        "favicon.ico": true
+    },
+    "hide-files.files": [
+        "_site",
+        "Gemfile.lock",
+        ".vscode",
+        ".idea",
+        ".jekyll-cache",
+        "LICENSE",
+        "favicon.ico"
+    ]
+}

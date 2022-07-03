@@ -1,3 +1,16 @@
-repository: https://github.com/mariodmpereira/mariodmpereira.github.io
-home_url: https://mariodmpereira.github.io/
-blog_url: https://mariodmpereira.github.io/blog/
+repository_name: "mariodmpereira.github.io"
+links:
+  repository: "https://github.com/mariodmpereira/mariodmpereira.github.io/"
+  home: "[mariodmpereira.github.io](https://mariodmpereira.github.io/)"
+  home_url: "https://mariodmpereira.github.io/"
+  blog_url: "https://mariodmpereira.github.io/blog/"
+  github_pages_getting_started: "[GitHub Pages - Getting Started](https://mariodmpereira.github.io/github-pages/getting-started/)"
+  jekyll_themes_url: "https://mariodmpereira.github.io/github-pages/jekyll/remote-themes/"
+  customising_jtd: "[Just the Docs - customising](https://mariodmpereira.github.io/github-pages/jekyll/customising-just-the-docs/)"
+  customising_jtd_url: "https://mariodmpereira.github.io/github-pages/jekyll/customising-just-the-docs/"
+
+examples_repository:
+  jekyll_url: "https://github.com/mariodmpereira/mariodmpereira.github.io-examples/tree/main/jekyll/" 
+  myblog: "[My Blog](https://github.com/mariodmpereira/mariodmpereira.github.io-examples/tree/main/jekyll/myblog/)"
+  just_the_docs_barebones: "[My Blog - Just the Docs Barebones](https://github.com/mariodmpereira/mariodmpereira.github.io-examples/tree/main/jekyll/my-blog-just-the-docs-barebones/)"  
+  just_the_docs_customised: "[My Blog - Just the Docs Customised](https://github.com/mariodmpereira/mariodmpereira.github.io-examples/tree/main/jekyll/my-blog-just-the-docs-customised/)"  

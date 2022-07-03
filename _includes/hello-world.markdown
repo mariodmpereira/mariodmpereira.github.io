@@ -21,13 +21,13 @@ As my career progresses I found that there's so much stuff to learn, that it's i
 
 I will be documenting here my learning in the hope that it serves me as a reference in the future, but I hope it helps you as well.
 
-Every time I post or update any documentation I will make a new [blog post]({{ site.data.devugger.blog_url }}) with the date of publishing.
+Every time I post or update any documentation I will make a new [blog post]({{ site.data.devugger.links.blog_url }}) with the date of publishing.
 
-I encourage you to submit any [issue](https://github.com/mariodmpereira/mariodmpereira.github.io/issues) or [pull request](https://github.com/mariodmpereira/mariodmpereira.github.io/pulls) on my [GitHub repository]({{ site.data.devugger.repository }}) if you feel that something is not accurate or that it could be improved. If such changes are implemented you will be added as a contributor to said page.
+I encourage you to submit any [issue](https://github.com/mariodmpereira/mariodmpereira.github.io/issues/) or [pull request](https://github.com/mariodmpereira/mariodmpereira.github.io/pulls/) on my [GitHub repository]({{ site.data.devugger.links.repository }}) if you feel that something is not accurate or that it could be improved. If such changes are implemented you will be added as a contributor to said page.
 
 If you read so far, well, thank you! In case you want to reach me directly, you can send me an [email](mailto:{{site.data.author.email}}).
 
-Last but not least, all of the code examples given here are hosted [here](https://github.com/mariodmpereira/devugger-examples).
+Last but not least, all of the code examples given here are hosted [here](https://github.com/mariodmpereira/devugger-examples/).
 
 Cheers from the always sunny Lisbon.
 
@@ -37,8 +37,8 @@ Mário
 
 ### References:
 
-- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html)
+- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html/)
 - [GitHub](https://github.com/)
 - [GitHub Pages](https://pages.github.com/)
-- [Expression Language](https://helpx.adobe.com/after-effects/using/expression-language.html)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- [Expression Language](https://helpx.adobe.com/after-effects/using/expression-language.html/)
+- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
