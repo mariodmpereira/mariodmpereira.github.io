@@ -8,17 +8,17 @@ parent: Jekyll
 
 # {{ page.parent }} - {{ page.title }}
 
-{{ site.data.bolded.jekyll }} supports **Gem based themes** and **remote themes**. [Its website]({{ site.data.links.jekyll_themes_url }}) warns you that {{ site.data.bolded.github_pages }} does not have support for many **Gem based themes** straight away:
+{{ site.data.bolded.jekyll }} supports **Gem based themes** and **remote themes**. [Its website]({{ site.data.links.jekyll_themes_url }}) warns you straight away that {{ site.data.bolded.github_pages }} does not have support for many **Gem based themes**:
 
 > *If you’re publishing your {{ site.data.bolded.jekyll }} site on {{ site.data.bolded.github_pages }}, note that {{ site.data.bolded.github_pages }}  supports only some gem-based themes. {{ site.data.bolded.github_pages }} also supports using any theme hosted on {{ site.data.bolded.github }} using the remote_theme configuration as if it were a gem-based theme.*
 
 Since all the **remote themes** that are hosted on {{ site.data.bolded.github }} are supported by {{ site.data.bolded.github_pages }}, we're going to go with one of them.
 
-I'm going to pick up where we left off in the previous section on the **myblog** project, but I'm going to duplicate the project directory **myblog** and call it **my-blog-just-the-docs-barebones**. I did this just so I can keep multiple copies of this walkthrough on my [examples project]({{ site.data.devugger.examples_repository.jekyll_url }}).
+I'm going to pick up where we left off in the previous section on the **myblog** project. Duplicate the project directory **myblog** and call it **my-blog-just-the-docs-barebones**. I did this so I can keep multiple copies of this walkthrough on my [examples repository]({{ site.data.repositories.examples.jekyll.home }}).
 
 After consering a few themes for this website I choose {{ site.data.links.just_the_docs }}.
 
-As soon as you enter their website, you see some that you can use a **remote theme** or a **Gem based**. Copy the **remote_theme** line and replace the `_config.yml` line `theme: minima` (or just comment this line) with the one you just copied.
+As soon as you enter their website you notice that you can use a **remote theme** or a **Gem based**. Copy the **remote_theme** line and replace the `_config.yml` line `theme: minima` (or just comment this line) with the one you just copied.
 
 Then on the **Gemfile** delete or comment the line `gem "minima", "~> 2.5"`.
 
@@ -76,12 +76,12 @@ Navigate to your {{ site.data.links.localhost }} and you should see your website
 
 It's done, your website is now live. But still looks a bit boring, so in the next section, I will try to give you a basic understanding of how to quickly customise this theme to make it more appealing.
 
-[Customising Just the Docs]({{ site.data.devugger.links.just_the_docs_customising_url }}){: .btn .btn-purple }
+[Customising Just the Docs]({{ site.data.repositories.main.github_pages.just_the_docs.customising_url }}){: .btn .btn-purple }
 
 {% include examples-repository.markdown %}
-- {{ site.data.devugger.examples_repository.just_the_docs_barebones }}
+- {{ site.data.repositories.examples.just_the_docs.barebones }}
 
 {% include references.markdown %}
 
 - {{ site.data.links.just_the_docs }}
-- {{ site.data.links.liquid }}
+- [Jekyll Themes]({{ site.data.links.jekyll_themes_url }})

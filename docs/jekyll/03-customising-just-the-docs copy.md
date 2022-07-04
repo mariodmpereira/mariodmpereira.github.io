@@ -8,7 +8,9 @@ parent: Jekyll
 
 # {{ page.parent }} - {{ page.title }}
 
-Before any customisation, I'm going to duplicate the directory **my-blog-just-the-docs-barebones** and name it **my-blog-just-the-docs-customised**.
+Before any customisation, duplicate the directory **my-blog-just-the-docs-barebones** and name it **my-blog-just-the-docs-customised**.
+
+I should warn that any change you make to `_config.yml` will only be applied when you restart the server, even if you ran it with `--livereload`.
 
 ## Changing to the dark theme
 
@@ -23,7 +25,7 @@ Reboot your application and reload the page, you're welcome.
 
 ## Website Metadata
 
-You can change all of the metadata about your website, I removed all of the comments because I like to keep things clean, my `_config.yml` file is as follows.
+You can change any metadata regarding your website, I removed all of the comments because I like to keep things clean, my `_config.yml` file is as follows.
 > ### **_config.yml**
 ```yml
 color_scheme: dark
@@ -39,11 +41,11 @@ plugins:
   - jekyll-feed
 ```
 
-Please be advised that if you don't use a `baseurl` you should **remote** or **comment that line**. Trust me, it already caused me a lot of headaches trying to figure out why the website was misbehaving.
+Please be advised that if you don't use a `baseurl` you should **remote** or **comment that line**. Trust me, it already caused me a lot of headaches trying to figure out why the website was misbehaving, and I still haven't figured out what was the problem.
 
-Not only you just setup some metadata for your website (like the page title), but you can now select anywhere on your markdown files one of these yaml keys using the {{ site.data.bolded.liquid }}, that comes with {{ site.data.bolded.jekyll }} out of the box.
+Not only did you set up some metadata for your website (like the page title), but you can now select these **yml** keys using the {{ site.data.bolded.liquid }}, that comes with {{ site.data.bolded.jekyll }} out of the box.
 
-As an example, if you want to render the title of the site you set up on `_config.yml`, all you to need to do is write this on any {{ site.data.bolded.html }} or {{ site.data.bolded.markdown }} file.
+As an example, if you want to render the title of the site you have on `_config.yml`, all you to need to do is write this on any {{ site.data.bolded.html }} or {{ site.data.bolded.markdown }} file.
 
 ```markdown
 {{ "{{ page.title " }}}}
@@ -86,7 +88,7 @@ Refresh and you should see the change.
 ## Side Navigation
 ### Hide Pages
 
-You probably noticed that after the last step, the ``Home`` navigation appeared on the side navigation. That's because {{ site.data.bolded.just_the_docs }} searches everywhere on the project for any markdown file inside a {{ site.data.bolded.front_matter }} section for a `title`, and considers it as part of the side navigation.
+You probably noticed that after the last step, the ``Home`` navigation appeared on the side navigation. That's because {{ site.data.bolded.just_the_docs }} searches on the project for any markdown file inside a {{ site.data.bolded.front_matter }} section for a `title`, and considers it as part of the side navigation.
 
 If you want to hide it from the side navigation you can add this extra line `nav_exclude: true`.
 
@@ -101,9 +103,9 @@ nav_exclude: true
 
 ### Add Pages
 
-As just explained in the previous section, you can now duplicate the `index.markdown` and call it `blog.markdown`. Change it's `title` to Blog and remove the `nav_exclude: true`. This new page should now appear on the side navigation.
+As just explained in the previous section, you can now duplicate the `index.markdown` and call it `blog.markdown`. Change its `title` to Blog and remove the `nav_exclude: true`. This new page should now appear on the side navigation.
 
-Tipically I store all the new pages under the `/docs` directory to keep the project structure organized, but you can leave them at the root of the project if you want. I'm going to move this `blog.markdown` I created inside `/docs/blog`
+Typically I store all the new pages under the `/docs` directory to keep the project structure organized, but you can leave them at the root of the project if you want. I'm going to move this new `blog.markdown` file into `/docs/blog`
 
 > ### **blog.markdown**  
 ```markdown
@@ -138,10 +140,20 @@ The same goes for this, you can check [Just the Docs - Aux links](https://just-t
 
 To order pages on the side navigation, you need to use `nav_order` on each page's {{ site.data.bolded.front_matter }}. For example, for the first page vertically you would use `nav_order: 1`, for the fourth `nav_order: 4`.
 
-[Closing Remarks]({{ site.data.devugger.links.just_the_docs_closing_remarks_url }}){: .btn .btn-purple }
+> ### **blog.markdown**  
+```markdown
+---
+layout: home
+title: Blog
+permaling: /blog
+nav_order: 4
+---
+```
+
+[Closing Remarks]({{ site.data.repositories.main.github_pages.just_the_docs.closing_remarks_url }}){: .btn .btn-purple }
 
 {% include examples-repository.markdown %}
-- {{ site.data.devugger.examples_repository.just_the_docs_customised }}
+- {{ site.data.repositories.examples.just_the_docs.customised }}
 
 {% include references.markdown %}
 
