@@ -24,7 +24,7 @@ Select the checkbox that says `Add a README file` and then click `Create reposit
 
 Please take into account that it may take a few minutes for it to be live. To check how is the deployment status, go to your repository's root and there should be a yellow circle just near the commit hash on the right, you can click it to know more information about the deployment status.
 
-![GitHub Deploying - 01](/assets/images/github/github-deploying-01.png/)
+![GitHub Deploying - 01](/assets/images/github/github-deploying-01.png)
 
 Once that circle is green you are good to go.
 
