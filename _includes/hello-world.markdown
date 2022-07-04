@@ -37,13 +37,3 @@ If you read so far, well, thank you!
 Cheers from the always sunny Lisbon.
 
 Mário
-
----
-
-### References:
-
-- [Adobe After Effects](https://www.adobe.com/products/aftereffects.html)
-- [GitHub](https://github.com/)
-- [GitHub Pages](https://pages.github.com/)
-- [Expression Language](https://helpx.adobe.com/after-effects/using/expression-language.html/)
-- [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript/)
