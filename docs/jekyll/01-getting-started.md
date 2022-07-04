@@ -35,7 +35,7 @@ I'm not going to go into more details here. I want to show you how can you insta
 
 [Remote Themes]({{ site.data.devugger.links.jekyll_themes_url }}){: .btn .btn-purple }
 
-{% include examples_repository.markdown %}
+{% include examples-repository.markdown %}
 - {{ site.data.devugger.examples_repository.myblog }}
 
 {% include references.markdown %}

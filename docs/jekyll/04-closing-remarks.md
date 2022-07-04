@@ -16,5 +16,5 @@ Notice that I added a few examples on the [examples repository]({{ site.data.dev
 
 When trying to deploy this to {{ site.data.bolded.github_pages }}, please remember to change the name of the project just like described [here]({{ site.data.devugger.links.github_pages_getting_started_url }}).
 
-{% include examples_repository.markdown %}
+{% include examples-repository.markdown %}
 - {{ site.data.devugger.examples_repository.just_the_docs_customised }}

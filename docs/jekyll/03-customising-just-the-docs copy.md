@@ -140,7 +140,7 @@ To order pages on the side navigation, you need to use `nav_order` on each page'
 
 [Closing Remarks]({{ site.data.devugger.links.just_the_docs_closing_remarks_url }}){: .btn .btn-purple }
 
-{% include examples_repository.markdown %}
+{% include examples-repository.markdown %}
 - {{ site.data.devugger.examples_repository.just_the_docs_customised }}
 
 {% include references.markdown %}

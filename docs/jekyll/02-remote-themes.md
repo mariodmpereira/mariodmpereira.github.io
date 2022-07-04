@@ -78,7 +78,7 @@ It's done, your website is now live. But still looks a bit boring, so in the nex
 
 [Customising Just the Docs]({{ site.data.devugger.links.just_the_docs_customising_url }}){: .btn .btn-purple }
 
-{% include examples_repository.markdown %}
+{% include examples-repository.markdown %}
 - {{ site.data.devugger.examples_repository.just_the_docs_barebones }}
 
 {% include references.markdown %}
