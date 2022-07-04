@@ -27,9 +27,11 @@ Every time I post or update any documentation I will make a new [blog post]({{ s
 
 I encourage you to submit any [issue](https://github.com/mariodmpereira/mariodmpereira.github.io/issues/) or [pull request](https://github.com/mariodmpereira/mariodmpereira.github.io/pulls/) on my [GitHub repository]({{ site.data.devugger.links.repository }}) if you feel that something is not accurate or that it could be improved. If such changes are implemented you will be added as a contributor to said page.
 
-Last but not least, all of the code examples given here are hosted on [another repository](https://github.com/mariodmpereira/devugger-examples/).
+All of the code examples given here are hosted on [another repository](https://github.com/mariodmpereira/devugger-examples/) in case you want to verify them.
 
-If you read so far, well, thank you! In case you want to reach me directly, you can send me an [email](mailto:{{site.data.author.email}}).
+Last but not least, you can check my projects at [GitHub]({{ site.data.author.github }}) and you can contact me through [Linkedin]({{ site.data.author.linkedin }}).
+
+If you read so far, well, thank you! 
 
 Cheers from the always sunny Lisbon.
 
