@@ -32,7 +32,7 @@ email: mariodmpereira@gmail.com
 description: >-
   This is my personal Developer Handbook to keep track of my learnings.
 # baseurl: ""
-url: "http://mariodmpereira.github.io/"
+url: "http://www.mariodmpereira.com/"
 github_username:  mariodmpereira
 remote_theme: just-the-docs/just-the-docs
 plugins:

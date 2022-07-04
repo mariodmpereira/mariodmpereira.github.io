@@ -7,9 +7,9 @@ plugins:
 
 aux_links:
   "Home":
-    - "//mariodmpereira.github.io/"
+    - "//mariodmpereira.com/"
   "Blog":
-    - "//mariodmpereira.github.io/blog/"
+    - "//mariodmpereira.com/blog/"
   "GitHub":
     - "//github.com/mariodmpereira/"
   "Linkedin":
