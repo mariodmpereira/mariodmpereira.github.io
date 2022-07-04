@@ -3,6 +3,8 @@
 console.log("Hello World");
 ```
 
+![Mário Pereira](/assets/images/photo/me.jpg)
+
 My name is [{{site.data.author.name}}]({{site.data.author.linkedin}}), I'm a Portuguese [Software Engineer]({{site.data.author.github}}) living in Lisbon, and this is my personal documentation page, **Devugger**, short for Development Debugger.
 
 As a former [Motion Graphics Designer]({{site.data.author.vimeo}}), I used Adobe After Effects for most of my previous career. As my career progressed, I found the need to start automating things, and I found that After Effects has a feature called Expression Language, that allows the user to write scripts to automate tasks.
