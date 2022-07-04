@@ -11,6 +11,7 @@ links:
   jekyll_themes_url: "https://mariodmpereira.github.io/jekyll/remote-themes/"
   just_the_docs_customising: "[Just the Docs - customising](https://mariodmpereira.github.io/jekyll/customising-just-the-docs/)"
   just_the_docs_customising_url: "https://mariodmpereira.github.io/jekyll/customising-just-the-docs/"
+  just_the_docs_closing_remarks_url: "https://mariodmpereira.github.io/jekyll/closing-remarks/"
 
 examples_repository:
   base_url: "https://github.com/mariodmpereira/mariodmpereira.github.io-examples"

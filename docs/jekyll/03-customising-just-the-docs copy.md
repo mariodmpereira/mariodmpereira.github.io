@@ -138,6 +138,8 @@ The same goes for this, you can check [Just the Docs - Aux links](https://just-t
 
 To order pages on the side navigation, you need to use `nav_order` on each page's {{ site.data.bolded.front_matter }}. For example, for the first page vertically you would use `nav_order: 1`, for the fourth `nav_order: 4`.
 
+[Closing Remarks]({{ site.data.devugger.links.just_the_docs_closing_remarks_url }}){: .btn .btn-purple }
+
 {% include examples_repository.markdown %}
 - {{ site.data.devugger.examples_repository.just_the_docs_customised }}
 
