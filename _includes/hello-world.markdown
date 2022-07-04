@@ -3,7 +3,7 @@
 console.log("Hello World");
 ```
 
-![Mário Pereira](/assets/images/photo/me.jpg)
+![Mário Pereira](/assets/images/photo/me.JPG)
 
 My name is [{{site.data.author.name}}]({{site.data.author.linkedin}}), I'm a Portuguese [Software Engineer]({{site.data.author.github}}) living in Lisbon, and this is my personal documentation page, **Devugger**, short for Development Debugger.
 
