@@ -27,7 +27,7 @@ bundle add webrick
 
 Now navigate to your {{ site.data.links.localhost }} and you should see something similar to this.
 
-![](/assets/images/jekyll/jekyll-live-01.png)
+![Jekyll Live - 01](/assets/images/jekyll/jekyll-live-01.png)
 
 Now you can play with {{ site.data.bolded.jekyll }} to take full advantage of what you've learned while reading the {{ site.data.links.jekyll_steps }}.
 

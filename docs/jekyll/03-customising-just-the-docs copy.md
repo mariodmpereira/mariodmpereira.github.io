@@ -54,7 +54,7 @@ Download any **favicon** and put it in the root folder of the project.
 
 Refresh, voilà.
 
-![](/assets/images/jekyll/just-the-docs-favicon-01.png)
+![Just the Docs Favicon - 01](/assets/images/jekyll/just-the-docs-favicon-01.png)
 
 ## Homepage title
 
@@ -81,7 +81,7 @@ title: Home
 
 Refresh and you should see the change.
 
-![](/assets/images/jekyll/just-the-docs-page-title-01.png)
+![Just the Docs Page Title - 01](/assets/images/jekyll/just-the-docs-page-title-01.png)
 
 ## Side Navigation
 ### Hide Pages

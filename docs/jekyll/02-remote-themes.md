@@ -51,7 +51,7 @@ git diff
 
 This will show you what dependencies you are missing.
 
-![](/assets/images/jekyll/jekyll-missing-dependencies-01.png)
+![Jekyll Missing Dependencies - 01](/assets/images/jekyll/jekyll-missing-dependencies-01.png)
 
 Go to your project **Gemfile** and all these dependencies to the **group :jekyll_plugins**. On my case, I added `gem "jekyll-include-cache"`, `gem "jekyll-include-cache"` and `gem "rake"`. 
 
@@ -72,7 +72,7 @@ Try starting the server with bundle `exec jekyll serve --livereload` and it shou
 
 Navigate to your {{ site.data.links.localhost }} and you should see your website live.
 
-![](/assets/images/jekyll/jekyll-live-02.png)
+![Jekyll Live - 02](/assets/images/jekyll/jekyll-live-02.png)
 
 It's done, your website is now live. But still looks a bit boring, so in the next section, I will try to give you a basic understanding of how to quickly customise this theme to make it more appealing.
 

@@ -22,15 +22,15 @@ Select the checkbox that says `Add a README file` and then click `Create reposit
 
 Please take into account that it may take a few minutes for it to be live. To check how is the deployment status, go to your repository's root and there should be a yellow circle just near the commit hash on the right, you can click it to know more information about the deploy status.
 
-![](/assets/images/github/github-deploying-01.png/)
+![GitHub Deploying - 01](/assets/images/github/github-deploying-01.png/)
 
 Once that circle is green you are good to go.
 
-![](/assets/images/github/github-deploying-02.png)
+![GitHub Deploying - 02](/assets/images/github/github-deploying-02.png)
 
 Navigate to {{ site.data.links.home }} and you should see the link of your repository because {{ site.data.bolded.github_pages }} is rendering your `README.md` file.
 
-![](/assets/images/github/github-deploying-03.png)
+![GitHub Deploying - 03](/assets/images/github/github-deploying-03.png)
 
 Try adding any text to that `README.md` file and committing the changes. As soon as the deployment is ready, you can refresh your browser at {{ site.data.devugger.links.home }} and you should see your changes.
 
