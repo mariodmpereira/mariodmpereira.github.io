@@ -22,7 +22,7 @@ This is hosted on {{ site.data.links.github_pages }}, which is completely free.
 
 Hope it helps, cheers from Portugal.
 
-Mário
+Super Mário
 
 ---
 
