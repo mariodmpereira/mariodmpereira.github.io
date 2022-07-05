@@ -1,9 +1,9 @@
 ---
-nav_order: 1
 layout: page
 title: Getting Started
 permalink: /jekyll/getting-started/
 parent: Jekyll
+nav_order: 1
 ---
 
 # {{ page.parent }} - {{ page.title }}

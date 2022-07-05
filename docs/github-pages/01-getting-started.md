@@ -1,5 +1,4 @@
 ---
-nav_order: 1
 layout: page
 title: Getting Started
 permalink: /github-pages/getting-started/

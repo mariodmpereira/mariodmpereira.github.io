@@ -1,9 +1,9 @@
 ---
-nav_order: 2
 layout: page
 title: Remote Themes
 permalink: /jekyll/remote-themes/
 parent: Jekyll
+nav_order: 2
 ---
 
 # {{ page.parent }} - {{ page.title }}

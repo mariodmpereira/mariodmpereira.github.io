@@ -3,6 +3,7 @@ layout: page
 title: GitHub Pages
 permalink: /github-pages/
 has_children: true
+nav_order: 1
 ---
 
 # {{ page.title }}

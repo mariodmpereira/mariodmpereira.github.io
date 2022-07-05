@@ -1,9 +1,9 @@
 ---
-nav_order: 3
 layout: page
 title: Customising Just the Docs
 permalink: /jekyll/customising-just-the-docs/
 parent: Jekyll
+nav_order: 3
 ---
 
 # {{ page.parent }} - {{ page.title }}

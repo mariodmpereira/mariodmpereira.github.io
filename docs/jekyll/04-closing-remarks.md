@@ -1,9 +1,9 @@
 ---
-nav_order: 4
 layout: page
 title: Closing Remarks
 permalink: /jekyll/closing-remarks/
 parent: Jekyll
+nav_order: 4
 ---
 
 # {{ page.parent }} - {{ page.title }}
