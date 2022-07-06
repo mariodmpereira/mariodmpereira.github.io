@@ -13,7 +13,7 @@ Does this sound simple to you?
 
 It is indeed. You can follow this very simple [step-by-step guide]({{ site.data.links.github_pages_url }}) on how to serve a simple markdown file.
 
-But if you want an overall overview, you can turn any of your {{ site.data.bolded.github }} repository's into a static hosted website on {{ site.data.bolded.github_pages }}, but typically the idea is you create a new repository with the name `your_username.github.io`. If you do this, your page will be published to `https://your_username.github.io/`. 
+But if you want an overall overview, you can turn any of your **GitHub** repository's into a static hosted website on **GitHub Pages**, but typically the idea is you create a new repository with the name `your_username.github.io`. If you do this, your page will be published to `https://your_username.github.io/`. 
 
 Let's assume from now on I'm doing it as an example, follow along with me, but be sure to use your username instead.
 
@@ -29,7 +29,7 @@ Once that circle is green you are good to go.
 
 ![GitHub Deploying - 02](/assets/images/github/github-deploying-02.png)
 
-I will now go to [{{ site.data.repositories.main.github_repository_name }}]({{ site.data.repositories.main.base_url }}) and the website live. Yes, it was that simple. {{ site.data.bolded.github_pages }} is now rendering your `README.md` file.
+I will now go to [{{ site.data.repositories.main.github_repository_name }}]({{ site.data.repositories.main.base_url }}) and the website live. Yes, it was that simple. **GitHub Pages** is now rendering your `README.md` file.
 
 ![GitHub Deploying - 03](/assets/images/github/github-deploying-03.png)
 
@@ -37,11 +37,11 @@ Try adding any text to that `README.md` file and committing the changes. As soon
 
 But that's pretty boring, right? It's just a single markdown file being rendered to the browser. 
 
-Fear not! You can upload any static website, using plain {{ site.data.bolded.html }}, {{ site.data.bolded.css }} and {{ site.data.bolded.javascript }}, or using any framework like {{ site.data.links.bootstrap }}, {{ site.data.links.bulma }}, {{ site.data.links.tailwind }}, among others.
+Fear not! You can upload any static website, using plain **HTML**, **CSS** and **Javascript**, or using any framework like {{ site.data.links.bootstrap }}, {{ site.data.links.bulma }}, {{ site.data.links.tailwind }}, among others.
 
 I'm gonna suggest another alternative below.
 
-[Meet {{ site.data.bolded.jekyll }}]({{ site.data.repositories.main.github_pages.jekyll.home_url }}){: .btn .btn-purple }
+[Meet **Jekyll**]({{ site.data.repositories.main.github_pages.jekyll.home_url }}){: .btn .btn-purple }
 
 {% include references.markdown %}
 

@@ -43,9 +43,9 @@ plugins:
 
 Please be advised that if you don't use a `baseurl` you should **remote** or **comment that line**. Trust me, it already caused me a lot of headaches trying to figure out why the website was misbehaving, and I still haven't figured out what was the problem.
 
-Not only did you set up some metadata for your website (like the page title), but you can now select these **yml** keys using the {{ site.data.bolded.liquid }}, that comes with {{ site.data.bolded.jekyll }} out of the box.
+Not only did you set up some metadata for your website (like the page title), but you can now select these **yml** keys using the **Liquid template language**, that comes with **Jekyll** out of the box.
 
-As an example, if you want to render the title of the site you have on `_config.yml`, all you to need to do is write this on any {{ site.data.bolded.html }} or {{ site.data.bolded.markdown }} file.
+As an example, if you want to render the title of the site you have on `_config.yml`, all you to need to do is write this on any **HTML** or **Markdown*** file.
 
 ```markdown
 {{ "{{ page.title " }}}}
@@ -64,14 +64,14 @@ At the time of writing this post, this theme contains a "small issue".
 
 If you look at the screenshot above for the **favicon**, you will notice there's a hyphen before the page name. 
 
-{{ site.data.bolded.just_the_docs }} remote theme's [`head.html`](https://github.com/just-the-docs/just-the-docs/blob/main/_includes/head.html) is expecting both a `site.title` and a `page.title` for the its **HTML** `<title>` tag.
+**Just the Docs*** remote theme's [`head.html`](https://github.com/just-the-docs/just-the-docs/blob/main/_includes/head.html) is expecting both a `site.title` and a `page.title` for the its **HTML** `<title>` tag.
 
 > ### **head.html**
 > ```html
 > <title>{{ "{{ page.title " }}}} - {{ "{{ site.title " }}}}</title>
 > ```
 
-Open your `index.markdown` on the root of the project and you will notice it only has a comment and a `layout:home` inside the {{ site.data.bolded.front_matter }} section. I removed the comment and added this line `title: Home`.
+Open your `index.markdown` on the root of the project and you will notice it only has a comment and a `layout:home` inside the **Front Matter** section. I removed the comment and added this line `title: Home`.
 
 > ### **index.markdown**  
 ```markdown
@@ -88,7 +88,7 @@ Refresh and you should see the change.
 ## Side Navigation
 ### Hide Pages
 
-You probably noticed that after the last step, the ``Home`` navigation appeared on the side navigation. That's because {{ site.data.bolded.just_the_docs }} searches on the project for any markdown file inside a {{ site.data.bolded.front_matter }} section for a `title`, and considers it as part of the side navigation.
+You probably noticed that after the last step, the ``Home`` navigation appeared on the side navigation. That's because **Just the Docs*** searches on the project for any markdown file inside a **Front Matter** section for a `title`, and considers it as part of the side navigation.
 
 If you want to hide it from the side navigation you can add this extra line `nav_exclude: true`.
 
@@ -117,7 +117,7 @@ title: Blog
 
 ### Permalinks
 
-You can easily add the path to any page by adding `permalink: /url` to any page's {{ site.data.bolded.front_matter }}.
+You can easily add the path to any page by adding `permalink: /url` to any page's **Front Matter**.
 
 > ### **blog.markdown**  
 ```markdown
@@ -138,7 +138,7 @@ The same goes for this, you can check [Just the Docs - Aux links](https://just-t
 
 ### Side Navigation Order
 
-To order pages on the side navigation, you need to use `nav_order` on each page's {{ site.data.bolded.front_matter }}. For example, for the first page vertically you would use `nav_order: 1`, for the fourth `nav_order: 4`.
+To order pages on the side navigation, you need to use `nav_order` on each page's **Front Matter**. For example, for the first page vertically you would use `nav_order: 1`, for the fourth `nav_order: 4`.
 
 > ### **blog.markdown**  
 ```markdown

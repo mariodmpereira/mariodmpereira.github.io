@@ -8,11 +8,11 @@ nav_order: 2
 
 # {{ page.parent }} - {{ page.title }}
 
-{{ site.data.bolded.jekyll }} supports **Gem based themes** and **remote themes**. [Its website]({{ site.data.links.jekyll_themes_url }}) warns you straight away that {{ site.data.bolded.github_pages }} does not have support for many **Gem based themes**:
+**Jekyll** supports **Gem based themes** and **remote themes**. [Its website]({{ site.data.links.jekyll_themes_url }}) warns you straight away that **GitHub Pages** does not have support for many **Gem based themes**:
 
-> *If you’re publishing your {{ site.data.bolded.jekyll }} site on {{ site.data.bolded.github_pages }}, note that {{ site.data.bolded.github_pages }}  supports only some gem-based themes. {{ site.data.bolded.github_pages }} also supports using any theme hosted on {{ site.data.bolded.github }} using the remote_theme configuration as if it were a gem-based theme.*
+> *If you’re publishing your **Jekyll** site on **GitHub Pages**, note that **GitHub Pages**  supports only some gem-based themes. **GitHub Pages** also supports using any theme hosted on **GitHub** using the remote_theme configuration as if it were a gem-based theme.*
 
-Since all the **remote themes** that are hosted on {{ site.data.bolded.github }} are supported by {{ site.data.bolded.github_pages }}, we're going to go with one of them.
+Since all the **remote themes** that are hosted on **GitHub** are supported by **GitHub Pages**, we're going to go with one of them.
 
 I'm going to pick up where we left off in the previous section on the **myblog** project. Duplicate the project directory **myblog** and call it **my-blog-just-the-docs-barebones**. I did this so I can keep multiple copies of this walkthrough on my [examples repository]({{ site.data.repositories.examples.jekyll.home }}).
 

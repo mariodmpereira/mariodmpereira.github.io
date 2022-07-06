@@ -12,9 +12,9 @@ As a former [Motion Graphics Designer]({{site.author.vimeo}}), I used Adobe Afte
 
 As Adobe described on their website:
 
-> _The After Effects expression language is based on {{ site.data.bolded.javascript }}, with an extended set of built-in objects. After Effects uses the core standard {{ site.data.bolded.javascript }} language, not the web browser–specific extensions._
+> _The After Effects expression language is based on **Javascript**, with an extended set of built-in objects. After Effects uses the core standard **Javascript** language, not the web browser–specific extensions._
 
-I started learning both {{ site.data.bolded.javascript }} and Expression Language, and I found myself obsessing specifically over {{ site.data.bolded.javascript }}. I was investing more time in studying it than actually studying anything related to my previous role at the time.
+I started learning both **Javascript** and Expression Language, and I found myself obsessing specifically over **Javascript**. I was investing more time in studying it than actually studying anything related to my previous role at the time.
 
 Fast forward a few years from then, and here I am. I decided I'd had enough of **Motion Graphics**, and decided to invest in a [Coding Bootcamp](https://www.academiadecodigo.org/) here in Lisbon, and change my career for good.
 
