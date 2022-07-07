@@ -1,3 +1,3 @@
 ---
 
-#### Examples Repository :
+#### Examples Repository
