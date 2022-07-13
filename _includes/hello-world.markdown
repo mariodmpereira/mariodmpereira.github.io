@@ -6,21 +6,21 @@ console.log("Hello World");
 
 ![Mário Pereira](/assets/images/photo/me.JPG)
 
-My name is [{{site.author.name}}]({{site.author.linkedin}}), I'm a Portuguese [Software Engineer]({{site.author.github}}) living in Lisbon, and this is my documentation page, **Devugger**, short for Development Debugger.
+My name is [{{site.author.name}}]({{site.author.linkedin}}) and I am a Portuguese [Software Engineer]({{site.author.github}}) living in Lisbon.
 
-As a former [Motion Graphics Designer]({{site.author.vimeo}}), I used Adobe After Effects for most of my previous career. As it progressed, I felt the need to start automating things. I knew that After Effects has a feature called Expression Language, that allows the user to write scripts inside of the software so that we can automate any task.
+This is **Devugger**, a blog where I document things I learn in this career.
 
-As Adobe described on their website:
+As a former [Motion Graphics Designer]({{site.author.vimeo}}), I used **Adobe After Effects** as my main work tool. At some point in time, I wanted to automate things I was often repeating, so I started using Expression Language, a feature that allows the user to write scripts inside of the software itself.
 
-> _The After Effects expression language is based on **JavaScript**, with an extended set of built-in objects. After Effects uses the core standard **JavaScript** language, not the web browser–specific extensions._
+As **Adobe** described on their website:
 
-I started learning both **JavaScript** and Expression Language, and I found myself obsessing specifically over **JavaScript**. I was investing more time in studying it than actually studying anything related to my previous role at the time.
+> _The **After Effects** expression language is based on **JavaScript**, with an extended set of built-in objects. **After Effects** uses the core standard **JavaScript** language, not the web browser–specific extensions._
 
-Fast forward a few years from then, and here I am. I decided I'd had enough of **Motion Graphics**, and decided to invest in a [Coding Bootcamp](https://www.academiadecodigo.org/) here in Lisbon, and change my career for good.
+I started learning both **JavaScript** and Expression Language, and I found myself obsessing specifically over **JavaScript**. I was investing more time in studying it than actually studying anything related to my role at the time.
 
-I can now proudly say that I've been working as a **Software Engineer** since early 2020.
+Fast forward a few years from then, I decided I'd had enough of **Motion Graphics**, and decided to invest in a [Coding Bootcamp](https://www.academiadecodigo.org/) here in Lisbon, and change my career for good.
 
-As my career progresses, I find that there's so much stuff to learn, that it's impossible to remember everything. We google things we don't know or don't remember daily.
+I can now proudly say that I've been working as a **Software Engineer** since early 2020, and as my career progresses, I find that there's so much stuff to learn, that it's impossible to remember everything. We google things we don't know or don't remember daily.
 
 I will be documenting here my learning in the hope that it serves me as a reference in the future, but I hope it helps you down the road as well.
 
